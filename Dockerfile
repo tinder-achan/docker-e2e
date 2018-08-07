@@ -1,4 +1,4 @@
-FROM circleci/node:6-browsers
+FROM circleci/node:8-browsers
 
 # make sure apt is up to date
 RUN sudo apt-get update
